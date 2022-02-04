@@ -1,0 +1,26 @@
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+:operation-http-request-title: Example Request
+:operation-http-response-title: Example Response
+
+= Resources
+
+== Item
+
+=== Item 요청
+==== Request
+include::{snippets}/item-get-by-id/http-request.adoc[]
+==== Response
+include::{snippets}/item-get-by-id/http-response.adoc[]
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+//operation::item-get-by-id[snippets='http-request,http-response,request-fields']
+//operation::item-get-by-id[snippets='http-request,http-response']
+
